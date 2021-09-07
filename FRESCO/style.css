@@ -1,0 +1,259 @@
+html {
+    background-image: url('https://api.army.mil/e2/c/images/2020/11/23/f23bfe63/original.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.z-carousel-wrapper {
+    height: 550px;
+    margin-top: 50px;
+
+}
+
+.container {
+  width:1000px; 
+  margin:0 auto; 
+  padding: 25px 25px;
+  box-shadow:0px 0px 0px #333 inset, 0 0 6px #000; 
+  border-radius:5px 5px 5px 5px; 
+  background-color: #F2EFCE;
+  behavior: inherit;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+}
+
+.menu-wrap {
+    width: 975px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    background:#ac8c6c;
+}
+/* Navbar container */
+.menu {
+background-color: #ac8c6c;
+width: 900px;
+height: 30px;
+font-weight: bold;
+}
+
+.menu li {
+    margin: 0px;
+    list-style: none;
+    font-family: sans-serif;
+}
+.menu a, span.MsoHyperlink{
+    transition: all linear 0.15s;
+        color: #003399;
+        text-decoration: underline;
+}
+
+.menu a:visited,
+span.MsoHyperlinkFollowed {
+    color: black;
+    text-decoration: underline;
+}
+.menu li:hover > a, .menu .currernt-item > a {
+    background-color: gray;
+    text-decoration: none;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+
+.menu > ul > li > a {
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:gray;
+}
+/*-----Bottom lever -----*/
+.menu li:hover .sub-menu {
+    z-index: 1;
+    opacity: 1;
+}
+
+.sub-menu {
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity linear 0.15s;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+    background-color: #ac8c6c
+}
+
+.sub-menu li {
+    display: block;
+    font-size: 16px;
+}
+
+.sub-menu li a {
+    padding: 0;
+    display: block;
+    text-decoration: none;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background: gray;
+}
+
+.Splashpage {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.history {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+
+}
+
+.erdc {
+    width: 30%;
+    height: 30%;
+    border: 4px solid #ac8c6c;
+}
+.img {
+    width:30%;
+    height: 25%;
+    float: right;
+    display: block;
+    margin-right: auto;
+    padding-bottom: 1px;
+    
+}
+
+.images {
+    width: 30%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    border: 1px solid #ac8c6c;
+}
+
+.fresco-philosopy {
+    width: 70%;
+    height: 60%;
+    border: 1px solid #ac8c6c;
+    display: block;
+    text-align: center;
+}
+    a,
+        body,
+        p,
+        li,
+        div {
+            margin-top: 6.0pt;
+            margin-right: 6.0pt;
+            margin-bottom: 6.0pt;
+            margin-left: 6.0pt;
+            font-size: 12.0pt;
+            font-family: "Georgia", serif;
+        }
+
+        h1 {
+            margin-bottom: 0in;
+            margin-left: 6.0pt;
+            font-size: 20.0pt;
+            font-family: "Franklin Gothic Heavy", sans-serif;
+            color: #6E8878;
+            font-weight: bold;
+        }
+
+        h2 {
+            margin-bottom: 0in;
+            margin-left: 6.0pt;
+            font-size: 18.0pt;
+            font-family: "Franklin Gothic Demi", sans-serif;
+            color: #2F447E;
+            font-weight: bold;
+        }
+
+        .small {
+            font-size: 12.0pt;
+            font-family: "Georgia", serif;
+        }
+
+.large {
+    font-size: 16.0pt;
+    font-family: "Georgia", serif;
+}
+
+a:link,
+span.MsoHyperlink {
+    color: #003399;
+    text-decoration: underline;
+}
+
+a:visited, span.MsoHyperlinkFollowed {
+    color: #009900;
+    text-decoration: underline;
+}
+ 
+form{
+    margin:30px;
+    margin-left: 20px;
+}
+input{
+    width: 300px;
+    height: 25px;    
+}
+textarea{
+    margin-top: 15px;
+    width: 450px;
+    height: 70px;
+}
+  
+  /* ~~FOOTER~~ */
+footer {
+    background:none repeat scroll 0 0 #000000; 
+    border-top:medium  solid #7B8E78; 
+    clear:both; 
+    padding:0 0 5px 0; 
+    margin:0; 
+    position:relative;
+    bottom: 0; 
+    width: 999px;
+}
+
+footer ul {
+    display: inline;
+    padding:0; 
+    margin:0;
+}
+
+footer ul li {
+    display:inline; 
+    color:#FFF; 
+    padding:0 8px; 
+    margin:0;
+    font-size:6px;
+}
+
+footer a:link, footer a:visited{
+    color:#FFF; 
+}
+
+footer a:hover {
+    color:#fff; 
+    text-decoration:underline; 
+}
+
+  
