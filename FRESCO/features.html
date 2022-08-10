@@ -6,15 +6,15 @@
         <title>FRESCO</title>
         <meta name="description" content="FRESCO(tm) Model Home Page">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
         <div class="container">
             <div>
                 <p align="right">
-                    <img src="fresco-logo3.png" width=15% align="center">
-                    <img class="erdc" src="ERDC-logo.jpg" width=30% align="left">    
+                    <img src="images/fresco-logo3.png" width=15% align="center">
+                    <img class="erdc" src="images/ERDC-logo.jpg" width=30% align="left">    
                 </p>
             </div>
             <div class="menu-wrap">
@@ -47,8 +47,62 @@
                 </nav>
             </div>
 
-
-        <img class="images" src="Trucks-firing.jpg">
+           
+            <map name="FRESCO_features">
+                <area shape="rect" coords="36,78,163,145" alt="munitions" href="#munitions">
+                <area shape="rect" coords="192,104,310,162" alt="soil" href="#soil">
+                <area shape="rect" coords="194,181,306,242" alt="vadose" href="#vadose">
+                <area shape="rect" coords="194,265,306,323" alt="aquifer" href="#aquifer">
+                <area shape="rect" coords="375,162,482,214" alt="surface water" href="#surface water">
+                <area shape="rect" coords="379,266,496,325" alt="benchmarks" href="#">
+            </map>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3 id="munitions">Munitions</h3>
+            <p>The munition mass loading module calculates the residual munition constituent mass associated with each munition used on the range accounting for firing yield, and dud rates. Munitions are selected by munition type and Department of Defense identification code (DODIC) or National Stock Number (NSN). In Tier 2 the munition loading rate can vary in time.  
+            </p>
+            <br>
+            <br>
+            <h3 id="soil">Soil Source Zone</h3>
+            <p>In the soil module the source zone solid (free product) and non-solid (dissolved) mass is initially determined by the Munition Residue Mass Loading Module and then tracked over time as the solid munition mass erodes, dissolves and leaches to the vadose zone, or is lost through runoff to surface water.
+            </p>
+            <br>
+            <img class="images" src="images/Trucks-firing.jpg">
+            <br>
+            <h3 id="vadose">Vadose Zone</h3>
+            <p>In the Vadose Zone Module the Multimedia  Environmental Pollutant Assessment System (MEPAS) is used to compute vertical fluxes of dissolved munition constituent from the soil layer to the aquifer.  A time varying flux can be computed in Tier 2.
+            </p>
+            <br>
+            <br>
+            <h3 id="aquifer">Aquifer Zone</h3>
+            <p>In the Aquifer Module the Multimedia  Environmental Pollutant Assessment System (MEPAS) is used to compute horizontal fluxes of dissolved munition constituent from the vadose zone to a target endpoint such as a well or surface water.  A time varying aquifer flux can be computed in Tier 2.
+            </p>
+            <br>
+            <br>
+            <h3 id="surface water">Surface Water Zone</h3>
+            <p>Two surface water models are available in FRESCO; the Contaminant Model for Streams (CMS) calculates concentrations at a downstream point in flowing water while the RECOVERY model is used for standing water such as ponds, lakes, and wetlands.  Time varying concentrations are determined in Tier 2 and multiple models can be applied to address combinations of surface water types affected by the range.
+            </p>
+            <br>
+            <br>
+            <h3 id="benchmarks">Benchmarks</h3>
+            <p>Look in FRESCO Help Document</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
             <footer>
                 <ul>
                 <li><a href="index.html">Home</a></li>
@@ -57,7 +111,7 @@
                 </ul>
                 <ul>
                 <li><a href="http://www.usace.army.mil" target="_new">US Army Corps of Engineers</a></li>
-                <li><a href="http://www.erdc.usace.army.mil" target="_new">Engineer Research and Development Center</a></li>
+                <li><a href="http://www.erdc.usace.army.mil" target="_new">ERDC</a></li>
                 <li><a href="http://www.erdc.usace.army.mil/Locations/EL.aspx" target="_new">Environmental Laboratory</a></li>
                 </ul>                  
             </footer>

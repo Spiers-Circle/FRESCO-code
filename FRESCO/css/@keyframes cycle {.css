@@ -1,0 +1,149 @@
+@keyframes cycle {
+0%   {top:    0px; opacity: 1; z-index:  1;}  /* Starts in view */
+30%  {top:    0px; opacity: 1; z-index:  1;}  /* In view */
+33%  {top:  325px; opacity: 0; z-index:  1;}  /* Slides out of view [to bottom] */
+63%  {top:  325px; opacity: 0; z-index: -1;}  /* Moves to back [z-index] */
+66%  {top: -325px; opacity: 0; z-index: -1;}  /* Moves back to top out of sight */ 
+96%  {top: -325px; opacity: 0; z-index:  1;}  /* Moves back to front [z-index] */
+100% {top:    0px; opacity: 1; z-index:  1;}  /* Return to start */
+}
+@keyframes cycle2 {
+0%   {top: -325px; opacity: 0; z-index: -1;}  /* Moves back to top out of sight */
+30%  {top: -325px; opacity: 0; z-index:  1;}  /* Moves back to front [z-index] */
+33%  {top:    0px; opacity: 1; z-index:  1;}  /* Slides into view [from top] */
+63%  {top:    0px; opacity: 1; z-index:  1;}  /* In view */
+66%  {top:  325px; opacity: 0; z-index:  1;}  /* Slides out of view [to bottom] */ 
+96%  {top:  325px; opacity: 0; z-index: -1;}  /* Moves to back [z-index] */
+100% {top: -325px; opacity: 0; z-index: -1;}  /* Return to start */
+}
+
+@keyframes cycle3 {
+0%   {top:  325px; opacity: 0; z-index:  1;}  /* Slides out of view [to bottom] */
+30%  {top:  325px; opacity: 0; z-index: -1;}  /* Moves to back [z-index] */
+33%  {top: -325px; opacity: 0; z-index: -1;}  /* Moves back to top out of sight */
+63%  {top: -325px; opacity: 0; z-index:  1;}  /* Moves back to front [z-index] */
+66%  {top:    0px; opacity: 1; z-index:  1;}  /* Slides into view [from top] */ 
+96%  {top:    0px; opacity: 1; z-index:  1;}  /* In view */
+100% {top:  325px; opacity: 0; z-index:  1;}  /* Return to start */
+}  
+
+
+@keyframes cycle {
+  0% {
+    top: 0px;
+  }
+  4% {
+    top: 0px;
+  }
+  16% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  20% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  21% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  50% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  92% {
+    top: -325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  96% {
+    top: -325px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes cycle2 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  16% {
+    top: -325px;
+    opacity: 0;
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+  }
+  24% {
+    top: 0px;
+    opacity: 1;
+  }
+  36% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  40% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  41% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle3 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  36% {
+    top: -325px;
+    opacity: 0;
+  }
+  40% {
+    top: 0px;
+    opacity: 1;
+  }
+  44% {
+    top: 0px;
+    opacity: 1;
+  }
+  56% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  60% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  61% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
