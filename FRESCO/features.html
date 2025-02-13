@@ -25,7 +25,7 @@
                         </li>
                         <li><a href="features.html">Features</a>
                         <ul class="sub-menu">
-                            <li><a href="#">Models</a></li>
+                            <li><a href="#Features">Features</a></li>
                             <li><a href="#">Tools</a></li>
                             <li><a href="#">Database</a></li>
                         </ul>
@@ -47,21 +47,35 @@
                 </nav>
             </div>
 
-           
+            <img class="clickable" src="images\clickable_figure.jpg" alt="FRESCO Figure" usemap="#FRESCO_features" width=625 height=360>
             <map name="FRESCO_features">
                 <area shape="rect" coords="36,78,163,145" alt="munitions" href="#munitions">
                 <area shape="rect" coords="192,104,310,162" alt="soil" href="#soil">
                 <area shape="rect" coords="194,181,306,242" alt="vadose" href="#vadose">
                 <area shape="rect" coords="194,265,306,323" alt="aquifer" href="#aquifer">
                 <area shape="rect" coords="375,162,482,214" alt="surface water" href="#surface water">
-                <area shape="rect" coords="379,266,496,325" alt="benchmarks" href="#">
+                <area shape="rect" coords="379,266,496,325" alt="benchmarks" href="#benchmarks">
             </map>
+            
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <br><p>The Fate and Risk Evaluation System for Contaminants (FRESCO™) was developed for the Army with varying levels of capability to forecast the fate of and risk from contaminants and munitions constituents (MC), such as high explosives (HE) and metals, within and down-gradient from firing/training ranges to surface water and groundwater. The overall objective is to provide environmental specialists with tools to assess the potential for migration of MC into surface water and groundwater systems and to assess range management strategies to protect human and environmental health. FRESCO™ is robust enough to also be used to assess fate and risk of contaminants not associated with military activities.</p><br>
+            <p>We have implemented serveral key improvements to enhance user experience and functionality. One of the most notable changes is the migration of the codebase from VB to C#, aligning with the latest .NET technologies and incorporating other modern libraries. We’ve also streamlined the code by removing unused files, which enhances overall efficiency. The soil models have been consolidated into a single, integrated code, simplifying maintenance and improving functionality. Additionally, the health benchmarks have been updated to reflect more accurate data, while the Arctic UI and algorithms have been enhanced for better performance and user experience. The Results Viewers have been improved to provide clearer insights, and a custom health benchmarks UI has been added for more tailored data presentation. Furthermore, the soil characterization process has been updated for greater precision, and we’ve incorporated a vastly improved Help system, now a single searchable resource that provides comprehensive documentation and support. These improvements demonstrate our commitment to continuous development and user satisfaction.</p>
+            <br><h2 id="Features">Features</h2>
+            <br>Primary features for FRESCO include: 
+                <ul style="list-style-type: disc; display: inline;">
+                    <li>Framework for Tiered assessments</li>
+                    <li>Constituent databases for containment properties</li>   
+                    <li>Health Benchmarks database</li>
+                    <li>Munitions database for munitions constituent (MC) masses</li>
+                    <li>GIS module and tools to build raster (grid) files for use in HGCT</li>
+                    <li>MC residual mass loading module based on munitions use</li>
+                    <li>Fate models for soil, surface water, vadose zone, and groundwater.</li>
+                    <li>Simplified graphical user input interfaces for models (GUIs)</li>
+                    <li>Viewers with results</li>
+                    <li>HGCT for estimating input parameters and other utilities</li>
+                    <li>Monte Carlo sensitivity and uncertianty module for Tier 2 and Advance Tier 2 assessments</li>
+                    <li>BMP modules</li>
+                </ul>
             <br>
             <h3 id="munitions">Munitions</h3>
             <p>The munition mass loading module calculates the residual munition constituent mass associated with each munition used on the range accounting for firing yield, and dud rates. Munitions are selected by munition type and Department of Defense identification code (DODIC) or National Stock Number (NSN). In Tier 2 the munition loading rate can vary in time.  
@@ -103,14 +117,14 @@
             <br>
             <br>
             
-            <footer>
+            <footer class="footer">
                 <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="#">Contact</a></li>
                 </ul>
                 <ul>
-                <li><a href="http://www.usace.army.mil" target="_new">US Army Corps of Engineers</a></li>
+                <li><a href="http://www.usace.army.mil" target="_new">U.S. Army Corps of Engineers</a></li>
                 <li><a href="http://www.erdc.usace.army.mil" target="_new">ERDC</a></li>
                 <li><a href="http://www.erdc.usace.army.mil/Locations/EL.aspx" target="_new">Environmental Laboratory</a></li>
                 </ul>                  

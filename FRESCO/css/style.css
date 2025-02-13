@@ -1,8 +1,8 @@
 html {
-    background-image:  url("/images/BG_original.jpg");
+    background-image: url("/FRESCO/images/soldier-firing-M240b.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-color: #f0f0f0; /* Fallback color */
 }
 
 .z-carousel-wrapper {
@@ -142,13 +142,22 @@ span.MsoHyperlinkFollowed {
     
 }
 
+.clickable {
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1px;
+    border: 1px solid #ac8c6c;  
+    position: relative;
+}
 .images {
     width: 30%;
     height: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 5px;
     border: 1px solid #ac8c6c;
 }
 
@@ -157,7 +166,8 @@ span.MsoHyperlinkFollowed {
     height: 60%;
     border: 1px solid #ac8c6c;
     display: block;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contact {
     width: 50%;
@@ -269,4 +279,3 @@ ul {
     text-decoration:none; 
 }
 
-  
