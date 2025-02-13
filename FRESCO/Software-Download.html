@@ -51,30 +51,31 @@
             </p>
 
             <form class="download-forms" action="post">
-                <input type="text" name="first Name" placeholder="First Name*"> 
-                <input type="text" name="last Name" placeholder="Last Name*"> 
-                <input type="text" name="email" placeholder="Name@example.com*"><br>
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="First name" required minlength="3" placeholder="Enter your name" /><br>
+                <label for="name">Last Name:</label>
+                <input type="text" id="name" name="name" required minlength="3" placeholder="Enter your name" /><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email" /><br>
+                <label for="project">Project:</label>
                 <textarea name="message" placeholder="What is your project for?*"></textarea><br>
-                <button>Submit</button>
+                <button type="submit">Submit</button>
             </form>
                 
             * required field.
 
-
-
+   
             
-            <footer>
+            <footer class="footer">
+                <img src="images/ERDC_Castle.jpg" alt="Footer Image" class="footer-image">
+                <p>U.S. Army Corps Of Engineers<br>Engineer Research and Development Center<br>3909 Halls Ferry Rd Vicksburg, MS 39180</p>
                 <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="#">Contact</a></li>
-                </ul>
-                <ul>
-                <li><a href="http://www.usace.army.mil" target="_new">US Army Corps of Engineers</a></li>
-                <li><a href="http://www.erdc.usace.army.mil" target="_new">Engineer Research and Development Center</a></li>
+                <li><a href="http://www.usace.army.mil" target="_new">U.S. Army Corps of Engineers</a></li>
+                <li><a href="http://www.erdc.usace.army.mil" target="_new">Engineer Research  and Development Center</a></li>
                 <li><a href="http://www.erdc.usace.army.mil/Locations/EL.aspx" target="_new">Environmental Laboratory</a></li>
                 </ul>                  
             </footer>
+        </div>
         </div>
     </body>
 </html>

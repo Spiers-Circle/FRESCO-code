@@ -1,7 +1,9 @@
 html {
     background-image: url("/FRESCO/images/soldier-firing-M240b.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #f0f0f0; /* Fallback color */
 }
 
@@ -245,37 +247,50 @@ ul {
   list-style-type: none;
  }  
   /* ~~FOOTER~~ */
-.footer {
-    background:none repeat scroll 0 0 #000000; 
-    clear:both; 
-    padding:0 0 5px 0; 
-    margin:15px; 
-    position:relative;
-    bottom: 0; 
+  .footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    padding-bottom: 25px;
+    margin: 15px;
     width: 950px;
+    height: 100px;
     font-family: 'Franklin Gothic Demi', 'Arial Narrow', Arial, sans-serif;
+    display: flex; /* Added flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.footer-content {
+    display: flex; /* Use flexbox for inline layout of the image and links */
+    align-items: center; /* Align image and links vertically in the middle */
+}
+
+.footer-image {
+    height: 40px; /* Adjust the size of the image */
+    margin-right: 20px; /* Space between image and links */
 }
 
 .footer ul {
-    display: inline;
-    padding:0; 
-    margin:0;
+    display: inline-flex; /* Use flex to align items horizontally */
+    padding: 0;
+    margin: 0;
 }
 
 .footer ul li {
-    display:inline; 
-    color:#FFF; 
-    padding:0 8px; 
-    margin:0;
-    font-size:20px;
+    display: inline; /* Align list items inline */
+    color: #FFF;
+    padding: 0 8px;
+    margin: 0;
+    font-size: 20px;
 }
 
-.footer a:link, footer a:visited{
-    color:#FFF; 
+.footer a:link, footer a:visited {
+    color: #FFF;
 }
 
 .footer a:hover {
-    color:#fff; 
-    text-decoration:none; 
+    color: #fff;
+    text-decoration: none;
 }
 
